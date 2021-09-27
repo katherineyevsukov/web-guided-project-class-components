@@ -21,7 +21,7 @@ const App = () => {
     setState({
       ...state,
       name: (state.name === "Warren" ? "Allison" : "Warren"),
-      age: 12
+      age: state.age === 12 ? 33 : 12
     })
   }
 
