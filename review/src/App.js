@@ -27,7 +27,7 @@ const App = () => {
 
   return (
     <div>
-      <Person state={state} handleClick={handleClick}/>
+      <Person state={state} onClick={handleClick}/>
     </div>
   );
 };
